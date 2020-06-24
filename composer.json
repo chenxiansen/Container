@@ -1,0 +1,22 @@
+{
+    "name": "smater/container",
+    "description": "php容器demo",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smater",
+            "email": "1849132652@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Container\\": "src/container",
+            "Test\\": "test/"
+        }
+    },
+    "minimum-stability": "dev"
+}
